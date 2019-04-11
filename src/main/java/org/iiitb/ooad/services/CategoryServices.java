@@ -33,7 +33,21 @@ public class CategoryServices {
 		return categories;
 
 	}
-	
+
+	/*
+	// API to get Subcategory Table.
+	@GET
+	@Path("/getSubCategoryTable")
+	@Produces("application/json")
+	public List<Category> getCategories(){
+		
+		CategoryDAO dao = new CategoryDAO();
+		List<Category> categories = dao.getCategories();
+		return categories;
+
+	}
+	*/
+
 	
 	// API to get the su-category with id
 	@POST

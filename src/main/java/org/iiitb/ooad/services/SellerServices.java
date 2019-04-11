@@ -25,7 +25,7 @@ import org.iiitb.ooad.dao.ItemImagesDAO;
 @Path("/seller")
 public class SellerServices {
 	
-	private String images_folder = "/home/sravya/git/flipkart_proto/src/main/webapp/images/catalog/";
+	private String images_folder = "/home/battingbaba/OOAD/git4/src/main/webapp/images/catalog/";
 //	private String images_folder = "/Users/pranithreddy/Desktop/git/flipkart-prototype/src/main/webapp/images/catalog/;
 	
 	@Path("/addItem")
